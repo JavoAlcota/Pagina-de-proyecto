@@ -1,0 +1,8 @@
+#anadir-btn{
+    float: right;
+    transition: 150ms;
+}
+
+#anadir-btn:hover{
+    transform: scale(1.1,1.1);
+}
