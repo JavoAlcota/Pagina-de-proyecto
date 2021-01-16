@@ -1,0 +1,44 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;    
+    overflow-x: hidden;
+}
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0;
+}
+
+#imgAnadir, #imgMod, #imgBuscar, #imgEliminar{
+    transition: 150ms;
+}
+
+#imgAnadir:hover{
+    transform: scale(1.1,1.1);
+}
+
+#imgMod:hover{
+    transform: scale(1.1,1.1);
+}
+
+#imgBuscar:hover{
+    transform: scale(1.1,1.1);
+}
+
+#imgEliminar:hover{
+    transform: scale(1.1,1.1);
+}
+
+#info{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
