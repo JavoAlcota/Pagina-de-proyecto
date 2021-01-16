@@ -2,7 +2,7 @@ body{
     background-image: url(imagenes/anadir.jpg);
     background-size: cover;    
     overflow-x: hidden;
-    backdrop-filter: blur(8px);
+
 
 }
 
@@ -17,4 +17,8 @@ body{
 
 #btn-volver{
     position: absolute;
+}
+
+#total{
+    backdrop-filter: blur(8px);
 }
