@@ -2,10 +2,12 @@ body{
     background-image: url(imagenes/anadir.jpg);
     background-size: cover;    
     overflow-x: hidden;
+    backdrop-filter: blur(8px);
+
 }
 
 #anadir-btn{
-    float: right;
+    float: righasdt;
     transition: 150ms;
 }
 
@@ -14,5 +16,9 @@ body{
 }
 
 #total{
-    backdrop-filter: blur(8px);
+
+}
+
+#btn-volver{
+    position: absolute;
 }
