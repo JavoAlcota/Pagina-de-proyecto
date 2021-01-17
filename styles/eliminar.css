@@ -1,0 +1,23 @@
+body{
+    background-image: url(imagenes/eliminar.jpg);
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    min-height: 100vh;
+}
+
+#eliminar-btn{
+    transition: 150ms;
+}
+
+#eliminar-btn:hover{
+    transform: scale(1.1,1.1);
+}
+
+#btn-volver{
+    transition: 150ms;
+    position: absolute;
+}
+
+#btn-volver:hover{
+    transform: scale(1.1,1.1);
+}

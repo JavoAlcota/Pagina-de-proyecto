@@ -8,8 +8,11 @@ body{
 }
 
 #anadir-btn{
-    float: righasdt;
     transition: 150ms;
+}
+
+#btn-volver:hover{
+    transform: scale(1.1,1.1);
 }
 
 #anadir-btn:hover{
@@ -18,6 +21,7 @@ body{
 
 #btn-volver{
     position: absolute;
+    transition: 150ms;
 }
 
 #total{

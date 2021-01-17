@@ -1,0 +1,28 @@
+body{
+    min-height: 100vh;
+    background-image: url(imagenes/buscar.jpg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-attachment: fixed
+}
+
+#btn-volver{
+    position: absolute;
+    transition: 150ms;
+}
+
+#btn-volver:hover{
+    transform: scale(1.1,1.1);
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#buscar-btn{
+    transition: 150ms;
+}
+
+#buscar-btn:hover{
+    transform: scale(1.1,1.1);
+}
