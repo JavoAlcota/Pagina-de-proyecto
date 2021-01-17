@@ -20,13 +20,14 @@
             </div>
             <div>
                 <p>Anécdota:</p>
-                <textarea class="form-control mb-3" name="anecdota" id="anecdota" cols="150" rows="15"></textarea>
+                <textarea class="form-control mb-3" name="anecdota" id="anecdota" cols="150" rows="10"></textarea>
             </div>
             <div class="text-center">
                 <input class="btn btn-primary mb-3" type="submit" id="anadir-btn" value="Agregar">
             </div>
         </form>
-        <?php
+    </div>
+    <?php
             $servidor = "localhost";
             $usuario  = "root";
             $password = "";
@@ -70,7 +71,6 @@
             }
             $conexion->close();
         ?>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
