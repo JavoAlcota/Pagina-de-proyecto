@@ -1,0 +1,22 @@
+body{
+    background-image: url(imagenes/modificar.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    backdrop-filter: blur(20px);
+}
+
+#btn-volver{
+    position: absolute;
+}
+
+#mod-btn{
+    transition: 150ms;
+}
+
+#mod-btn:hover{
+    transform: scale(1.1,1.1);
+}
+
+#total{
+    background-color: rgba(0, 0, 0, 0.5);
+}
