@@ -13,7 +13,7 @@
 <body>
     <div class="row">
         <div class="col-md-auto">
-            <a href="index.html"><img src="styles/sonido.png" alt=""></a>
+            <a href="index.php" class="p-3"><img src="styles/sonido.png" alt=""></a>
         </div>
         <div class="col text-center">
             <h1 class="p-5 display-1">MusiClub</h1>
@@ -22,27 +22,27 @@
     <div class="row">
         <div class="col-2 "></div>
         <div class="col-2  text-center">
-            <a href="anadir.html">
+            <a href="anadir.php">
                 <img id="imgAnadir" src="styles/imagenes/anadir (1).png"></a><br><br>
             <h3>Añadir</h3>
         </div>
         <div class="col-2 boder text-center">
-            <a href="modificar.html"><img id="imgMod" src="styles/imagenes/pincel.png"></a><br><br>
+            <a href="modificar.php"><img id="imgMod" src="styles/imagenes/pincel.png"></a><br><br>
             <h3>Modificar</h3>
         </div>
         <div class="col-2  text-center">
-            <a href="buscar.html"><img id="imgBuscar" src="styles/imagenes/lupa.png"></a><br><br>
+            <a href="buscar.php"><img id="imgBuscar" src="styles/imagenes/lupa.png"></a><br><br>
             <h3>Buscar</h3>
         </div>
         <div class="col-2 text-center">
-            <a href="eliminar.html"><img id="imgEliminar" src="styles/imagenes/eliminar.png"></a><br><br>
+            <a href="eliminar.php"><img id="imgEliminar" src="styles/imagenes/eliminar.png"></a><br><br>
             <h3>Eliminar</h3>
         </div>
         <div class="col-2 brder"></div>
     </div>
     <div class="container pt-5">
         <div class="row" id="info">
-            <h2>Hola, administrador ¿Deseas administrar las anédotas de tus clientes? ¡Usa los botones que están justo arriba de este texto!</h2>
+            <h2 class="text-center">Hola, administrador ¿Deseas administrar las anédotas de tus clientes? ¡Usa los botones que están justo arriba de este texto!</h2>
 
         </div>
     </div>

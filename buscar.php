@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/buscar.css">
+    <link rel="shortcut icon" href="styles/imagenes/lupa.png"/>
 </head>
 
 <body>
-    <a href="index.html" id="btn-volver"><img src="styles/imagenes/volver-flecha-izquierda.png"></a>
+    <a href="index.php" id="btn-volver" class="p-3"><img src="styles/imagenes/volver-flecha-izquierda.png"></a>
     <div class="container">
         <form action="">
             <div class="text-center">
