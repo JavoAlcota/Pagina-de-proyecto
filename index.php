@@ -13,7 +13,7 @@
 <body>
     <div class="row">
         <div class="col-md-auto">
-            <a href="index.php" class="p-3"><img src="styles/sonido.png" alt=""></a>
+            <a href="index.php" class="p-3"><img id="logo" src="styles/sonido.png" alt=""></a>
         </div>
         <div class="col text-center">
             <h1 class="p-5 display-1">MusiClub</h1>
@@ -43,7 +43,7 @@
         </div>
         <div class="col-1 text-center"></div>
         <div class="col-1">
-            <a href="#"><img src="styles/imagenes/ver.png"><br><br></a>
+            <a href="ver.php"><img id="imgVer" src="styles/imagenes/ver.png"></a><br><br>
             <h3>Todos</h3>
         </div>
         <div class="col-2"></div>

@@ -12,7 +12,7 @@ html, body{
     margin: 0;
 }
 
-#imgAnadir, #imgMod, #imgBuscar, #imgEliminar{
+#imgAnadir, #imgMod, #imgBuscar, #imgEliminar, #imgVer, #logo{
     transition: 150ms;
 }
 
@@ -24,11 +24,19 @@ html, body{
     transform: scale(1.1,1.1);
 }
 
+#logo:hover{
+    transform: scale(1.1,1.1);
+}
+
 #imgBuscar:hover{
     transform: scale(1.1,1.1);
 }
 
 #imgEliminar:hover{
+    transform: scale(1.1,1.1);
+}
+
+#imgVer:hover{
     transform: scale(1.1,1.1);
 }
 
