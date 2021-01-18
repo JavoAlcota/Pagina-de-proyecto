@@ -41,10 +41,10 @@
             <a href="eliminar.php"><img id="imgEliminar" src="styles/imagenes/eliminar.png"></a><br><br>
             <h3>Eliminar</h3>
         </div>
-        <div class="col-1"></div>
-        <div class="col-1 text-center">
+        <div class="col-1 text-center"></div>
+        <div class="col-1">
             <a href="#"><img src="styles/imagenes/ver.png"><br><br></a>
-            <h3>Ver todos</h3>
+            <h3>Todos</h3>
         </div>
         <div class="col-2"></div>
     </div>
