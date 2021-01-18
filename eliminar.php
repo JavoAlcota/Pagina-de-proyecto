@@ -12,7 +12,7 @@
     <a href="index.php" id="btn-volver" class="p-3"><img src="styles/imagenes/volver-flecha-izquierda.png"></a>
     <div class="container">
         <h1 class="text-center text-white">Elimina el nombre junto con su anécdota. Sólo ingresa el nombre de la persona que quieres eliminar.</h1>
-        <form action="eliminar.php" method="GET">
+        <form action="eliminar.php" method="POST">
             <div>
                 <h3 class="text-white">Nombre:</h3>
                 <input type="text" name="nombre" class="form-control" required>
@@ -33,8 +33,8 @@
                 <img src="styles/imagenes/close.png">
                 </div>');
             }
-            if(!empty($_GET['nombre'])){
-                $nombre = $_GET['nombre'];
+            if(!empty($_POST['nombre'])){
+                $nombre = $_POST['nombre'];
                 $sql_seleccionar = "SELECT * FROM usuarios WHERE nombresUsuario = '$nombre'";
                 $respuesta = $conexion->query($sql_seleccionar);
                 if ($respuesta->num_rows > 0) {                    

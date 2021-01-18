@@ -13,7 +13,7 @@
     <div class="container text-white" id="total">
         <h1 class="text-center">Modifica alguna anécdota ingresando el nombre de la persona.</h1>
         <div>
-            <form action="modificar.php" method="GET">
+            <form action="modificar.php" method="POST">
                 <p class="text-white">Nombre:</p>
                 <input type="text" name="nombre" class="form-control" required>
                 <div class="mt-3">
@@ -38,9 +38,9 @@
                     </div>');
                 }
 
-                if(!empty($_GET['nombre']) && !empty($_GET['anecdota'])){
-                    $nombre = $_GET['nombre'];
-                    $anecdota = $_GET['anecdota'];
+                if(!empty($_POST['nombre']) && !empty($_POST['anecdota'])){
+                    $nombre = $_POST['nombre'];
+                    $anecdota = $_POST['anecdota'];
                     $sql_seleccionar = "SELECT * FROM usuarios WHERE nombresUsuario = '$nombre'";
                     $respuesta = $conexion->query($sql_seleccionar);
                     if ($respuesta->num_rows > 0) {                    
@@ -61,7 +61,7 @@
                         </div>
                         ';
                     }
-                }elseif (!empty($_GET['nombre']) && empty($_GET['anecdota'])){
+                }elseif (!empty($_POST['nombre']) && empty($_POST['anecdota'])){
                     echo '
                     <div class="conteiner text-center text-white pb-3">
                     <p>¡ERROR! asegurate de llenar tanto el campo de la anécdota como el nombre.</p>

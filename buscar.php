@@ -13,7 +13,7 @@
 <body>
     <a href="index.php" id="btn-volver" class="p-3"><img src="styles/imagenes/volver-flecha-izquierda.png"></a>
     <div class="container">
-        <form action="">
+        <form action="buscar.php" method="POST">
             <div class="text-center">
                 <h1 class="text-white display-3">Ingrese el nombre de la persona para ver su anécdota.</h1>
             </div>
@@ -39,14 +39,14 @@
             <img src="styles/imagenes/close.png">
             </div>');
         }
-        if (!empty($_GET['nombre'])){
-            $nombre=$_GET['nombre'];
+        if (!empty($_POST['nombre'])){
+            $nombre=$_POST['nombre'];
             $sql_seleccionar = "SELECT * FROM usuarios WHERE nombresUsuario='$nombre'";
             $resultados = mysqli_query($conexion, $sql_seleccionar);
             if($resultados->num_rows > 0){
                 while ($consulta = mysqli_fetch_array($resultados)){
                     echo '
-                    <div class="container text-white">
+                    <div class="container text-white text-center">
                     <h3 class="text-center">Anécdota:</h3>
                     <p>'.$consulta["anecdota"].'</p>
                     </div>

@@ -12,7 +12,7 @@
 <body>
     <a href="index.php" id="btn-volver" class="p-3"><img src="styles/imagenes/volver-flecha-izquierda.png"></a>
     <div class="container" id ="total">
-        <form action="anadir.php" class="text-white">
+        <form action="anadir.php" method="POST" class="text-white">
             <h1 class="display-5 mb-5 text-center">Sólo llena los campos para guardar la anécdota de la persona.</h1>
             <div>
                 <p>Nombre:</p>
@@ -40,10 +40,10 @@
                 <img src="styles/imagenes/close.png">
                 </div>');
             }
-            if (!empty($_GET['nombres']) && !empty($_GET['anecdota'])){
+            if (!empty($_POST['nombres']) && !empty($_POST['anecdota'])){
                 
-                $nombre = $_GET['nombres'];
-                $anecdota = $_GET['anecdota'];
+                $nombre = $_POST['nombres'];
+                $anecdota = $_POST['anecdota'];
                 $sql_insert = "INSERT INTO usuarios (nombresUsuario, anecdota) VALUES ('$nombre', '$anecdota')";
                 if ($conexion->query($sql_insert) === TRUE) {
                     echo '
@@ -61,7 +61,7 @@
                     </div>
                     ';
                 }            
-            }elseif(!empty($_GET['nombres']) && empty($_GET['anecdota'])){
+            }elseif(!empty($_POST['nombres']) && empty($_POST['anecdota'])){
                 echo '
                 <div class="conteiner text-center text-white pb-3">
                 <p>¡ERROR! asegurate de llenar tanto el campo de la anécdota como el nombre.</p>

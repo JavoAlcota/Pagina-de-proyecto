@@ -1,0 +1,48 @@
+body{
+    background-image: url(imagenes/ver.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px);
+}
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+}
+
+.col{
+    border-bottom: 1px solid white;
+}
+
+#nombre{
+    border-right: 1px solid white;
+}
+
+#anecdota{
+    border-left: 1px solid white;
+}
+
+#btn-volver{
+    transition: 150ms;
+    position: absolute;
+}
+
+#btn-volver2{
+    transition: 150ms;
+}
+
+#btn-volver2:hover{
+    transform: scale(1.1,1.1);
+}
+
+#btn-volver:hover{
+    transform: scale(1.1,1.1);
+}
