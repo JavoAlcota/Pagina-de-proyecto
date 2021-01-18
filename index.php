@@ -20,30 +20,37 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-2 "></div>
-        <div class="col-2  text-center">
+        <div class="col-1"></div>
+        <div class="col-1  text-center">
             <a href="anadir.php">
                 <img id="imgAnadir" src="styles/imagenes/anadir (1).png"></a><br><br>
             <h3>Añadir</h3>
         </div>
-        <div class="col-2 boder text-center">
+        <div class="col-1"></div>
+        <div class="col-1 boder text-center">
             <a href="modificar.php"><img id="imgMod" src="styles/imagenes/pincel.png"></a><br><br>
             <h3>Modificar</h3>
         </div>
-        <div class="col-2  text-center">
+        <div class="col-1"></div>
+        <div class="col-1  text-center">
             <a href="buscar.php"><img id="imgBuscar" src="styles/imagenes/lupa.png"></a><br><br>
             <h3>Buscar</h3>
         </div>
-        <div class="col-2 text-center">
+        <div class="col-1"></div>
+        <div class="col-1 text-center">
             <a href="eliminar.php"><img id="imgEliminar" src="styles/imagenes/eliminar.png"></a><br><br>
             <h3>Eliminar</h3>
         </div>
-        <div class="col-2 brder"></div>
+        <div class="col-1"></div>
+        <div class="col-1 text-center">
+            <a href="#"><img src="styles/imagenes/ver.png"><br><br></a>
+            <h3>Ver todos</h3>
+        </div>
+        <div class="col-2"></div>
     </div>
     <div class="container pt-5">
         <div class="row" id="info">
             <h2 class="text-center">Hola, administrador ¿Deseas administrar las anédotas de tus clientes? ¡Usa los botones que están justo arriba de este texto!</h2>
-
         </div>
     </div>
 

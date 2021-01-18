@@ -15,7 +15,7 @@
     <div class="container">
         <form action="">
             <div class="text-center">
-                <h1 class="text-white display-3">Ingrese el nombre de la persona para ver sus anécdotas.</h1>
+                <h1 class="text-white display-3">Ingrese el nombre de la persona para ver su anécdota.</h1>
             </div>
             <div>
                 <h1 class="text-white">Nombre:</h1>
